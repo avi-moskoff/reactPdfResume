@@ -2,6 +2,8 @@ import { StyleSheet } from "@react-pdf/renderer";
 
 export const white = "#ECEFF4";
 export const lightBlue = "#88C0D0";
+export const darkBlue = "#5E81AC";
+export const green = "#8FBCBB";
 
 // Create styles
 export const styles = StyleSheet.create({
@@ -34,11 +36,58 @@ export const styles = StyleSheet.create({
     color: lightBlue,
     fontSize: 10,
   },
-  linkView: {
+  leftSection: {
+    marginLeft: 30,
+    marginTop: 20,
+    width: "40%",
+  },
+  rightSection: {
+    marginRight: 30,
+    marginTop: 20,
+    width: "40%",
+  },
+  rowFlex: {
     flexDirection: "row",
   },
-  section: {
-    margin: 10,
-    padding: 10,
+  spaceBetween: {
+    justifyContent: "space-between",
+  },
+  sectionTitle: {
+    fontsize: 20,
+    marginLeft: 5,
+    color: white,
+  },
+  jobHeader: {
+    fontSize: 15,
+    marginBottom: 10,
+    marginTop: 10,
+    color: white,
+  },
+  companyHeader: {
+    fontSize: 15,
+    marginBottom: 5,
+    color: green,
+  },
+  location: {
+    fontSize: 10,
+    marginBottom: 5,
+    color: white,
+  },
+  date: {
+    fontSize: 10,
+    marginBottom: 5,
+    color: white,
+  },
+  jobDescription: {
+    fontSize: 10,
+    marginBottom: 10,
+    color: white,
+    alignItems: "center",
+  },
+  jobDescriptionText: {
+    marginLeft: 5,
+  },
+  alignCenter: {
+    alignItems: "center",
   },
 });
